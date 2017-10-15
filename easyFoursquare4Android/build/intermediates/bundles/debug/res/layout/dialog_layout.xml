@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<WebView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</WebView><!-- From: file:/Users/gustaftegner/Android%20Studio%20Projects/ShouldWeTest/easyFoursquare4Android/src/main/res/layout/dialog_layout.xml -->

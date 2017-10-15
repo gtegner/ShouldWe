@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#3f3f3f</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+
+    <color name = "orange">#FFA500</color>
+    <color name = "pink">#cc5490</color>
+    <color name="darkgrey">#3b3a36</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightgrey">#b3c2bf</color>
+    <color name="lightergrey">#c0dfd9</color>
+    <color name="almostwhite">#e9ece5</color>
+    <color name="sysGray">#FF888888</color>
+    <color name="black">#000000</color>
+    <color name="iosgrey">#E0E0E0</color>
+    <color name="lightblue">#00ffff</color>
+    <color name="coolblue">#26466D</color>
+
+    <color name="lghtred">#FF4C4C</color>
+
+    <color name="colorPrimary">#939393</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#000000</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#DC143C</color>
+
+</resources>

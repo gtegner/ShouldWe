@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:clickable="true"
+    android:id="@+id/review_linearlayout">
+
+
+    <RelativeLayout
+        android:background="@color/iosgrey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:id="@+id/textLayout">
+
+
+
+        <EditText
+            android:id="@+id/reviewText"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:hint="What's going on?"
+            android:inputType="textImeMultiLine"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded_edittext"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgrey"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_weight="0.3"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hur mycket folk är det ikväll?"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:id="@+id/venue_seekbar"
+            android:layout_centerVertical="true"
+
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgrey"/>
+
+    <RelativeLayout
+        android:layout_weight="0.19"
+        android:background="@color/iosgrey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:stepSize="1.0"
+            android:rating="0" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgrey"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_weight="0.3">
+
+
+    </RelativeLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonrollover"
+            android:textColor="@color/white"
+            android:id="@+id/button"
+            android:text="Review!"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:backgroundTint="#26466D"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+        android:src="@drawable/ic_action_camera"
+        app:layout_anchor="@id/textLayout"
+        app:layout_anchorGravity="bottom|right|end"/>
+</android.support.design.widget.CoordinatorLayout>

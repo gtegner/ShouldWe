@@ -1,0 +1,39 @@
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Theme.Holo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:id="@+id/relativeLayoutWelcome"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShouldWe"
+        android:textSize="60dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+    <Button
+        android:id="@+id/login_facebook_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with facebook"
+        android:background="@drawable/buttonrollover"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

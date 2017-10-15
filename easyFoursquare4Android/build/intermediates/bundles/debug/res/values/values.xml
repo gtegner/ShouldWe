@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/gustaftegner/Android%20Studio%20Projects/ShouldWeTest/easyFoursquare4Android/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">EasyFousquare</string>
+    <string name="hello">Hello World, EasyFousquareActivity!</string>
+</resources>
